@@ -1,4 +1,8 @@
 
 <div ng-repeat="item in $ctrl.items">
-	<a ui-sref="items({itemId:item.short_name})">{{item.name}}</a>
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	    <a ui-sref="items({itemId:item.short_name})">{{item.name}}</a>
+	  </div>
+	</div>
 </div>

@@ -1,6 +1,19 @@
 
 <div ng-repeat="item in $ctrl.items">
-	Name: {{item.name}} <br>
-	Description: {{item.description}}<br>
-	Price: {{item.price_large}}
+	
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="media">
+	  <div class="media-left">
+	  Price: {{item.price_large}}
+	  </div>
+	  <div class="media-body">
+	    <h4 class="media-heading">Name: {{item.name}}</h4>
+	    Description: {{item.description}}<br>
+	  </div>
+	</div>
+  </div>
 </div>
+</div>
+
+
